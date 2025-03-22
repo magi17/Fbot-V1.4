@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 
 module.exports = {
-    name: "ytsdl",
+    name: "video",
     usePrefix: false,
     usage: "Send a YouTube video by detecting a query or URL",
     version: "1.1",
