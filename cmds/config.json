@@ -1,0 +1,18 @@
+{
+  "option": {
+    "forceLogin": false,
+    "listenEvents": true,
+    "logLevel": "error",
+    "selfListen": true,
+    "online": true,
+    "autoMarkDelivery": false,
+    "autoMarkRead": false
+  },
+  "botPrefix": "/",
+  "botName": "made in chatgpt",
+  "botAdmins": [
+    "uid"
+  ],
+  "facebookEmail": "",
+  "facebookPassword": ""
+}
