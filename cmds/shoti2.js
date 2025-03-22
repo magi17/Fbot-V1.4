@@ -3,9 +3,9 @@ const axios = require("axios");
 const path = require("path");
 
 module.exports = {
-    name: "tikrandom",
+    name: "shoti",
     usePrefix: false,
-    usage: "tikrandom",
+    usage: "shoti",
     version: "1.0",
 
     async execute(api, event) {
