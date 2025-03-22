@@ -2,25 +2,25 @@ const fs = require("fs");
 const path = require("path");
 
 module.exports = {
-    name: "women",
+    name: "boss",
     usePrefix: false,
-    usage: "Trigger: 'women' or 'babae' (anywhere in the message)",
+    usage: "Trigger: 'boss' or 'bossing' (anywhere in the message)",
     version: "1.1",
-    description: "Sends a video response when the message contains 'women' or 'babae'.",
+    description: "Sends a video response when the message contains 'boss' or 'bossing'.",
 
     execute(api, event, args) {
         const { threadID, messageID, body } = event;
         const lowerCaseBody = body.toLowerCase();
 
-        if (lowerCaseBody.includes("women") || lowerCaseBody.includes("babae")) {
-            const videoPath = path.join(__dirname, "Women.mp4");
+        if (lowerCaseBody.includes("boss") || lowerCaseBody.includes("bossing")) {
+            const videoPath = path.join(__dirname, "received_3620334211444476.mp4");
 
             if (!fs.existsSync(videoPath)) {
                 return api.sendMessage("⚠️ Video file not found.", threadID, messageID);
             }
 
             const msg = {
-                body: "Pogi kung owner Mark 👑",
+                body: "Bosss ",
                 attachment: fs.createReadStream(videoPath),
             };
 
