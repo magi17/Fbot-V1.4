@@ -16,7 +16,7 @@ module.exports = {
             api.setMessageReaction("⏳", messageID, () => {}, true);
 
             // Fetch random TikTok video
-            const response = await axios.get("https://apis-i26b.onrender.com/tikrandom");
+            const response = await axios.get("https://apis-rho-nine.vercel.app/tikrandom");
 
             console.log("📜 API Response:", response.data);
 
