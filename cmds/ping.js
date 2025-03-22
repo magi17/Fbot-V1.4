@@ -2,7 +2,7 @@ const cron = require("node-cron"); // For scheduling tasks
 
 module.exports = {
     name: "ping",
-    usePrefix: true,
+    usePrefix: false,
     usage: "ping",
     version: "1.2",
     
