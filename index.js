@@ -1,4 +1,4 @@
- const fs = require('fs');
+const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const login = require('ws3-fca');
@@ -76,7 +76,7 @@ app.listen(PORT, () => {
 });
 
 // Load Facebook bot state
-const appState = loadConfig("./appState.json");
+const appState = loadConfig("../appState.json");
 
 // ✅ Store detected URLs per thread (conversation)
 const detectedURLs = new Set();
