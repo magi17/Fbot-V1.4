@@ -14,6 +14,8 @@ To set up the project, follow these steps:
 node index.js
 ```
 
+<video src="https://drive.google.com/file/d/127AllWsRZlnmxTJ3J1SVWR-YT5CKsdRU/view?usp=drivesdk" controls width="500"></video>
+
 
 # SOURCES
 
