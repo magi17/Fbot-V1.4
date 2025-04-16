@@ -14,7 +14,7 @@ To set up the project, follow these steps:
 node index.js
 ```
 
-![Demo GIF](https://drive.google.com/file/d/127AllWsRZlnmxTJ3J1SVWR-YT5CKsdRU/view?usp=drivesdk)
+[!Demo GIF](https://drive.google.com/file/d/127AllWsRZlnmxTJ3J1SVWR-YT5CKsdRU/view?usp=drivesdk)
 
 
 # SOURCES
